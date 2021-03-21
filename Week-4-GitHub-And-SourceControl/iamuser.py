@@ -2,6 +2,8 @@ import boto3
 import os
 import sys
 
+# adding a comment to instantiate a change to commit
+
 def new_iam_user(username):
     # Create connection to AWS API
     iam_user = boto3.client('iam')
